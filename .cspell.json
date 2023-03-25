@@ -1,0 +1,18 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": ["nomicfoundation"],
+    "ignorePaths": [
+        "node_modules/**",
+        "**/*.snap",
+        "**/*.spec.ts",
+        "build/**",
+        "dist/**"
+    ],
+    "dictionaryDefinitions": [
+        {
+            "name": "npm",
+            "path": "node_modules/cspell-dict-npm/cspell-ext.txt.gz"
+        }
+    ]
+}
